@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(90deg, #004c98 25%, #db002fc5 25%, #db002fce 50%, #004D98 50%, #004D98 75%, #db002fcf 75%, #db002fda 100%);
+    filter: brightness(90%) contrast(90%);
+    background-size: 350px 50px; /* Size of each band */
+}
+
+.mainbody {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    height: 100vh;
+}
+
+.playerslist {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 100vh;
+}
+
+.imgg {
+    margin: 3px;
+    border-radius: 5px;
+}
+.img1 {
+    height: 92%;
+    width: 20%;
+    background-color:rgb(255, 254, 254) ;
+    background-repeat: no-repeat;
+    background-image: url('player_images/ter_stegen.png');
+    background-position: center;
+}
+.img2 {
+    height: 92%;
+    width: 20%;
+    background-color:rgb(255, 254, 254) ;
+    background-repeat: no-repeat;
+    background-image: url('player_images/cubarsi.png');
+    background-position: center;
+}
+.img3 {
+    height: 92%;
+    width: 20%;
+    background-color:rgb(255, 254, 254) ;
+    background-repeat: no-repeat;
+    background-image: url('player_images/gavi.png');
+    background-position: center;
+}
+.img4 {
+    height: 92%;
+    width: 20%;
+    background-color:rgb(255, 254, 254) ;
+    background-repeat: no-repeat;
+    background-image: url('player_images/dani_olmo.png');
+    background-position: center;
+}
+.img5 {
+    height: 92%;
+    width: 20%;
+    background-color:rgb(255, 254, 254) ;
+    background-repeat: no-repeat;
+    background-image: url('player_images/raphinha.png');
+    background-position: center;
+}
+
+.imgg:hover{
+    width: 35%;
+}
